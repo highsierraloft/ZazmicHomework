@@ -5,6 +5,17 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .skills div div:nth-child(2) {
+    width: 100%;
+    order: 3;
+  }
+
+  .skills div div:nth-child(2) p {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .header {
     display: flex;
