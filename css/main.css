@@ -597,4 +597,6 @@ span {
 
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll;
+  scrollbar-color: grey black;
 }
